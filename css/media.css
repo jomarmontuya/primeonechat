@@ -1,0 +1,202 @@
+@media only screen and (max-width: 1400px) {
+    .pattern-upper-right {
+        right: 0px;
+    }
+
+}
+@media only screen and (max-width: 850px) {
+    .sticky-navbar {
+
+        visibility: hidden;
+ 
+    }
+    .search {
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .btn-cta {
+        margin-top: 20px;
+    }
+    .nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .logo {
+        margin: auto;
+        max-width: 300px;
+    }
+    .search {
+        display: none;
+    }
+    .banner-heading {
+        font-size: 60px;
+        padding: 0px 30px;
+    }
+    .sub-heading {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0px 30px;
+    }
+    .features {
+        padding: 0px 30px;
+    }
+    .wrapper-cta {
+  
+        margin: 40px 0px 150px 0px;
+        
+    }
+    .features-pattern-bottom, .features-pattern-top {
+        display: none;
+    }
+    .features-2-btn-wrapper > .compatible {
+        margin-bottom: 50px;
+    }
+ 
+
+    /* modal */
+    .modal {
+
+        padding-top: 100px; /* Location of the box */
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+    
+      /* Modal Content */
+
+    .modal-content {
+    
+        margin: auto;
+        max-width: 600px;
+        min-height: 400px;
+    
+      }
+    .modal-content > iframe {
+        width: 100%;
+        max-width: 600px;
+        min-height: 400px;
+      
+    }
+    /* Steps Section  */
+    .steps {
+        margin-top: 80px;
+    }
+    .cards {
+        max-width: 400px;
+        margin: 30px auto;
+    }
+    /* Security  */
+    .security-wrapper {
+        margin-top: 150px;
+        text-align: center;
+    }
+    .security-card {
+        max-width: 400px;
+        min-height: 306px;
+        margin: 0px auto 30px auto;
+    
+    }
+    /* Features-2  */
+    .features-2-heading {
+        font-size: 40px;
+        font-weight: 600;
+        color: #02AEEF;
+        margin-top: 30px;
+        text-align: center;
+    
+    }
+    /* Data usage */
+    .data-usage {
+        text-align: center;
+    }
+    .data-usage-sub-text {
+        margin: auto;
+        padding: 20px;
+    }
+    .apps-chart {
+        margin-top: 100px;
+    }
+    /* Voice Call Section  */
+    .voice-calls {
+        text-align: center;
+    }
+    .voice-calls-heading {
+
+        margin-top: 0px;
+    }
+    .voice-calls-sub-text {
+        margin: auto;
+        padding: 20px;
+    }
+    .video-call-2 {
+        margin-top: 50px;
+    }
+    .calling {
+        margin-bottom: 50px;
+    }
+    /* Forwarding  */
+    .call-forwarding {
+        text-align: center;
+    }
+    .call-forwarding-heading {
+        margin-top: 0px;
+    }
+    .call-forwarding-sub-text {
+        margin: auto;
+        padding: 20px;
+    }
+    .us-map {
+        margin-top: 100px;
+    }
+    .server-list {
+        margin-bottom: 50px;
+    }
+    /* Community */
+    .community-header{
+        font-size: 50px !important; 
+    }
+    .community-left, .community-right{
+        display: none;
+    }   
+}
+@media only screen and (max-width: 500px) {
+    .rect-upper {
+        display: none;
+    }
+}
+@media only screen and (max-width: 420px) {
+    .menu-icon > img, .search > img  {
+        padding: 15px;
+        top: 5px;
+        right: 5px;
+    }
+    .banner-heading {
+        font-size: 30px;
+        padding: 0px 10px;
+    }
+    .sub-heading {
+        font-size: 16px;
+        padding: 0px 10px;
+    }
+    .features {
+        padding: 0px 10px;
+        margin-top: 30px;
+    }
+    .features-sub-text {
+        font-size: 12px;
+    }
+ 
+    .steps-heading,  .introduction-heading, .features-2-heading, .data-usage-heading, .voice-calls-heading, .call-forwarding-heading {
+        font-size: 30px !important;
+        line-height: 50px !important;
+    }
+    .community-header {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+
+
+}
