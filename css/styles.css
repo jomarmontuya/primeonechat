@@ -203,7 +203,7 @@ body {
 .modal {
     display: none; /* Hidden by default */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 200px; /* Location of the box */
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
@@ -728,3 +728,148 @@ color: #02AEEF;
     transition: all 1s ease;
 
 }
+
+/* collapsible navbar section */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999 !important;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.1s;
+    padding-top: 30px;
+
+  }
+  .sidenav-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .close {
+      cursor: pointer;
+      background-color: #F8F7FC;
+      border-radius: 50%;
+      padding: 5px;
+  }
+  .primedomain {
+      text-align: center;
+  }
+  .primedomain-logo {
+      width: 100%;
+      max-width: 137px;
+      height: 102px;
+      margin-top: 30px;
+  }
+  .primedomain > h2 {
+      font-size: 16px;
+      color: #575757;
+      font-weight: 500;
+      margin-top: 20px;
+  }
+
+
+
+  .sidenav-links {
+      width: 100%;
+    
+      padding: 35px 35px 0px 35px;
+      margin-top: 30px;
+  }
+  .s-links {
+     display: inline;
+  }
+  .s-links > a {
+    font-size: 16px;
+    color: #001A31;
+    font-weight: 500;
+  }
+  .s-links > a:hover {
+    text-decoration: none;
+    color: #02AEEF;
+  }
+
+  .primeone-chat-link {
+    
+      width: 35px;
+      height: 35px;
+      padding: 10px 10px;
+      border-top-left-radius: 20%;
+      border-bottom-right-radius: 20%;
+      margin-right: 10px;
+      position: relative;
+  }
+  .primeone-chat-link > img {
+      width: 26px;
+      height: 26px;
+  }
+  /* Links Icons */
+.prime-chat {
+    background-color: #E5233D;
+}
+.prime-iot {
+    background-color: #DDA73A;
+}
+.prime-tv {
+    background-color: #4CA146;
+}
+.prime-life {
+    background-color: #136A9F;
+}
+.prime-circle {
+    background-color: #28BFE6;
+}
+.prime-city {
+        background-color: #F26A2E;
+}
+  .arrow {
+      display:inline-block;
+      width: 30px;
+      height: 30px;
+      background-color: #F2F2F2;
+      text-align: center;
+      border-radius: 50%;
+      padding-top: 3px;
+      padding-left: 2px;
+      float: right;
+      bottom: 2px;
+      position: relative;
+  }
+
+  .sidenav-hr {
+    border: 1px solid #F2F2F2;
+    margin: 20px 0px;
+  }
+ 
+
+.sidebar-btn-wrapper {
+    margin-top: 40px;
+}
+.sidebar-btn-wrapper > a {
+    background-color: #02AEEF;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    min-height: 50px;
+    width: 100%;
+    max-width: 263px;
+    padding: 15px;
+}
+
+.sidebar-btn-wrapper > a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

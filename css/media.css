@@ -198,5 +198,11 @@
         line-height: 50px !important;
     }
 
+    .s-links > a {
+        font-size: 13px;
+        color: #001A31;
+        font-weight: 500;
+      }
+
 
 }
