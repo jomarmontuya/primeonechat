@@ -839,6 +839,7 @@ color: #02AEEF;
       float: right;
       bottom: 2px;
       position: relative;
+      cursor: pointer;
   }
 
   .sidenav-hr {
