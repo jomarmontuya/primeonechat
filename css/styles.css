@@ -43,15 +43,15 @@ body {
 }
 
 /* Nav Section  */
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-   
+
+.menu-icon {
+    display: none;
+
 }
+
 .menu-icon > img, .search > img  {
     padding: 30px;
-    position: absolute;
+  
     background-image: url("../res/Ellipse\ 1.png");
     background-repeat: no-repeat;
     background-position: center;
